@@ -103,3 +103,66 @@ h2 {
     padding-top:5px;
     padding-left:10px;
 }
+.quote {
+    height:300px;
+    border:1px solid aliceblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:36px;
+    background-color:lightgray;
+   
+    font-style:italic;
+}
+.Quote {
+    min-width:200px;
+    color:black;
+}
+.three {
+    font-size:20px;
+    top:850px;
+    right:200px;
+    color:black;
+    position:absolute;
+}
+.Action {
+    height:200px;
+    border:1px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+.Call {
+    border: 1px solid blue;
+    padding:50px;
+    padding-right:300px;
+    color:white;
+    background-color:blue;
+    
+}
+.Service {
+    position:absolute;
+    right: 500px;
+    border:3px solid white;
+    padding:5px;
+    color:white;
+}
+.footer {
+
+    background-color: black;
+    height: 50px;
+    width: 100%;       /* Make sure it spans the entire width */
+    position: fixed;   /* Fix it to the viewport */
+    bottom: 0;         /* Stick it to the bottom */
+    left: 0;           /* Align it to the left edge */
+   /* Ensure it stays above other content */
+
+
+}
+.foot {
+    text-align:center;
+    color:red;
+    padding-top: 0.09px;
+   
+}
